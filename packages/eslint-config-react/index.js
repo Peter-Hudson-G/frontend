@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    '@zonedigital/eslint-config-zone',
+    'packages/eslint-config-zone',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
     'prettier/react',
