@@ -12,7 +12,7 @@
     "prettier": "^2.0.4"
   },
   "scripts": {
-    "postinstall": "npm install packages/eslint-config-react --force && npm install packages/eslint-config-zone --force",
+    "postinstall": "npm install",
     "lint": "eslint ./packages",
     "test": "jest"
   },
