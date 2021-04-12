@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'genomics-frontend/packages/eslint-config-zone',
+    '../eslint-config-zone',
     'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
     'prettier/react',
