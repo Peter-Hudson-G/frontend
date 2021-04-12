@@ -20,9 +20,9 @@
       "jest-serializer-path"
     ]
   },
-  "prettier": "genomics-frontend/prettier-config",
+  "prettier": "./packages/prettier-config",
   "eslintConfig": {
-    "extends": "genomics-frontend/eslint-config-zone",
+    "extends": "./packages/eslint-config-zone",
     "env": {
       "jest": true
     },
