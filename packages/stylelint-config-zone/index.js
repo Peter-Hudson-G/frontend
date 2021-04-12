@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['stylelint-config-standard', 'stylelint-prettier/recommended'],
+  extends: ['packages/stylelint-config-standard', 'stylelint-prettier/recommended'],
   rules: {
     'at-rule-empty-line-before': [
       'always',
